@@ -1,3 +1,4 @@
+local MODNAME = minetest.get_current_modname()
 -- Keep these for backwards compatibility
 function iasleep.save_sleep(player)
 	iasleep.set_sleep_raw(player)

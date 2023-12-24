@@ -1,3 +1,4 @@
+local MODNAME = minetest.get_current_modname()
 local S = minetest.get_translator("iasleep")
 
 if minetest.settings:get_bool("enable_damage") then
